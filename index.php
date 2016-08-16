@@ -40,4 +40,12 @@
 			echo'<br>';
 		}
 	}
+
+	function org_var_dump($val){
+		if(DEBUG){
+			echo'<pre>';
+			var_dump($val);
+			echo'<pre>';
+		}
+	}
 ?>
