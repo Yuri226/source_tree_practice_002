@@ -45,7 +45,7 @@
 		if(DEBUG){
 			echo'<pre>';
 			var_dump($val);
-			echo'<pre>';
+			echo'</pre>';
 		}
 	}
 ?>
